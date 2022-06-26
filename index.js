@@ -66,7 +66,6 @@ app.post("/uploadProfilePicture",function (req, res, next) {
 			res.send(err)
 		}
 		else {
-
 			// SUCCESS, image successfully uploaded
 			res.send("Success, Image uploaded!")
 		}
