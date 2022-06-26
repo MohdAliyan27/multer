@@ -1,7 +1,7 @@
-const express = require("express")
-const path = require("path")
-const multer = require("multer")
-const app = express()
+const express = require("express");
+const path = require("path");
+const multer = require("multer");
+const app = express();
 	
 // View Engine Setup
 app.set("views",path.join(__dirname,"views"))
